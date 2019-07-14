@@ -87,6 +87,12 @@
 .tim-note{
     text-transform: capitalize;
 }
+.animated.standby {
+     -webkit-animation: none !important;
+       -o-animation: none !important;
+      animation: none !important;
+        visibility: hidden;
+	}
 
 .footer-card{
     background-color: #FFFFFF;

@@ -398,6 +398,12 @@ body > .navbar-collapse a {
   animation-name: zoomOut;
 }
 
+.animated.standby {
+-webkit-animation: none !important;
+    -o-animation: none !important;
+	  animation: none !important;
+	  visibility: hidden;
+	}
 .loading {
   position: fixed;
   top: 0;
