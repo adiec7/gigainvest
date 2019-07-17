@@ -1,23 +1,11 @@
-/*!
 
- =========================================================
- * Gaia Bootstrap Template - v1.0.1
- =========================================================
- 
- * Product Page: https://www.creative-tim.com/product/gaia-bootstrap-template
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/gaia-bootstrap-template/blob/master/LICENSE.md)
- 
- =========================================================
- 
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- */
 
 /*      light colors         */
 html {
   font-size: 14px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
 }
 
 body {
@@ -524,7 +512,7 @@ a,
 .navbar .navbar-nav > li > a.btn:active,
 .navbar .navbar-nav > li > a.btn.active, .open >
 .navbar .navbar-nav > li > a.btn.dropdown-toggle {
-  background-color: transparent;
+  background-color:transparent;
   color: #777777;
   border-color: #777777;
 }
@@ -1507,8 +1495,9 @@ a,
   }
 }
 .footer {
-  background-color: #FFFFFF;
+  background-color: #b05861 !important ;
   line-height: 20px;
+  color:white !important;
   /*border-top: 1px solid #DDDDDD;*/
   overflow: hidden;
 }
@@ -1519,7 +1508,7 @@ a,
   font-weight: normal;
 }
 .footer nav > ul a:not(.btn) {
-  color: #777777;
+  color:whitesmoke;
   display: block;
   margin-bottom: 3px;
 }
@@ -1533,7 +1522,7 @@ a,
   padding-bottom: 15px;
 }
 .footer .social-area > a:not(.btn) {
-  color: #777777;
+  color: whitesmoke;
   display: inline-block;
   vertical-align: top;
   padding: 10px 5px;
@@ -1543,10 +1532,10 @@ a,
   text-align: center;
 }
 .footer .social-area > a:not(.btn):hover, .footer .social-area > a:not(.btn):focus {
-  color: #777777;
+  color:whitesmoke;
 }
 .footer .copyright {
-  color: #777777;
+  color:whitesmoke;
   padding: 10px 15px;
   margin: 15px 3px;
   line-height: 20px;
@@ -1556,7 +1545,7 @@ a,
   border-color: #DDDDDD;
 }
 .footer .title {
-  color: #777777;
+  color:whitesmoke;
 }
 .footer .title {
   text-align: left;
@@ -1565,7 +1554,7 @@ a,
   font-weight: bold;
 }
 .footer .btn-social {
-  color: #9A9A9A;
+  color: whitesmoke;
 }
 
 .footer:not(.footer-big) nav > ul {
